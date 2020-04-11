@@ -7,11 +7,11 @@ class CfContext < Formula
 
   if OS.mac?
     url "https://github.com/mrombout/cf-context/releases/download/v0.1/cf-context_0.1_darwin_amd64.tar.gz"
-    sha256 "ec99354185c918ea771cd67f29580fa1dc9cf839a573efaa3f4379cbb1f524ff"
+    sha256 "b7e6f49e2111fd5ddfc77959dc4c216cd38240fb81d4cb535192fab854fce7c1"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/mrombout/cf-context/releases/download/v0.1/cf-context_0.1_linux_amd64.tar.gz"
-      sha256 "fcd14abdc3e606c625a7b2994e23fae58b1b7017531610f6843ffd6c10c9a9b2"
+      sha256 "f5186025b9270f222f2f4c1e827a841e8428aaa43fe5f3215669e65831f21fec"
     end
   end
 
